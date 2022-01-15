@@ -1,9 +1,9 @@
-﻿object Form2: TForm2
+object Form2: TForm2
   Left = 0
   Top = 0
   Caption = 'botao'
-  ClientHeight = 163
-  ClientWidth = 293
+  ClientHeight = 194
+  ClientWidth = 232
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,39 +16,31 @@
   object Label1: TLabel
     Left = 134
     Top = 43
-    Width = 22
-    Height = 18
+    Width = 8
+    Height = 13
     Caption = '='
     StyleName = 'Label1'
-  end
-  object Botão: TButton
-    Left = 199
-    Top = 128
-    Width = 83
-    Height = 25
-    Caption = 'Bot'#227'o'
-    TabOrder = 0
   end
   object edtValor1: TEdit
     Left = 24
     Top = 40
     Width = 49
     Height = 21
-    TabOrder = 1
+    TabOrder = 0
   end
   object edtValor2: TEdit
     Left = 79
     Top = 40
     Width = 49
     Height = 21
-    TabOrder = 2
+    TabOrder = 1
   end
   object edtResultado: TEdit
     Left = 146
     Top = 40
     Width = 57
     Height = 21
-    TabOrder = 3
+    TabOrder = 2
   end
   object Button1: TButton
     Left = 24
@@ -56,7 +48,7 @@
     Width = 49
     Height = 25
     Caption = '+'
-    TabOrder = 4
+    TabOrder = 3
     OnClick = Button1Click
   end
   object Button2: TButton
@@ -65,7 +57,7 @@
     Width = 49
     Height = 25
     Caption = '-'
-    TabOrder = 5
+    TabOrder = 4
     OnClick = Button2Click
   end
   object Button3: TButton
@@ -74,7 +66,7 @@
     Width = 49
     Height = 25
     Caption = '*'
-    TabOrder = 6
+    TabOrder = 5
     OnClick = Button3Click
   end
   object Button4: TButton
@@ -83,7 +75,25 @@
     Width = 49
     Height = 25
     Caption = '/'
-    TabOrder = 7
+    TabOrder = 6
     OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 79
+    Top = 129
+    Width = 49
+    Height = 24
+    Caption = 'div'
+    TabOrder = 7
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 24
+    Top = 128
+    Width = 49
+    Height = 25
+    Caption = 'mod'
+    TabOrder = 8
+    OnClick = Button6Click
   end
 end
