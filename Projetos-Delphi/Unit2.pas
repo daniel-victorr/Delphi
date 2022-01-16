@@ -25,6 +25,7 @@ type
     procedure Button5Click(Sender: TObject);
     procedure Button6Click(Sender: TObject);
 
+
   private
     { Private declarations }
 
@@ -109,6 +110,7 @@ function TForm2.Dividir(value1, value2:double): currency;
 begin
 Result:=(value1 / value2);
 end;
+
 
 function TForm2.Somar(value1: Integer; value2: Integer): Integer;
 begin
