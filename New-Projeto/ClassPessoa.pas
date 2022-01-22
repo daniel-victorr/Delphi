@@ -29,11 +29,15 @@ end;
 
 Procedure TPessoa.setNome(const value: string);
 begin
+  if value='' then
+  raise Exception.Create('O campo Nome não pode ficar vazio');
   FNome:=value;
 end;
 
 Procedure TPessoa.setSalario(const value: Currency);
 begin
+  if value <=0 then
+  raise Exception.Create('O salário não poder ser menor ou igual a zero');
   FSalario:=value;
 end;
 

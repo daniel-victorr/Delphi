@@ -8,10 +8,20 @@ uses
 
 type
   TForm6 = class(TForm)
-    ComboBox1: TComboBox;
+    cbFuncao: TComboBox;
     Label1: TLabel;
     Button1: TButton;
-    Edit1: TEdit;
+    edtNome: TEdit;
+    Label2: TLabel;
+    edtSalario: TEdit;
+    Label3: TLabel;
+    edtBonus: TEdit;
+    Label4: TLabel;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Memo1: TMemo;
+
   private
     { Private declarations }
   public
@@ -24,5 +34,6 @@ var
 implementation
 
 {$R *.dfm}
+
 
 end.

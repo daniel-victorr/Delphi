@@ -1,11 +1,11 @@
-unit ClassAdministrador;
+unit ClassAdministrativo;
 
 interface
   uses
     System.SysUtils, ClassPessoa;
 
   type
-    TAdministrador=class(TPessoa)
+    TAdministrativo=class(TPessoa)
 
     private
       FBonus:Currency;
@@ -18,12 +18,12 @@ interface
 
 implementation
 
-procedure TAdministrador.setBonus(const value: Currency);
+procedure TAdministrativo.setBonus(const value: Currency);
 begin
   FBonus:=value;
 end;
 
-function TAdministrador.CalcSalario: Currency;
+function TAdministrativo.CalcSalario: Currency;
 begin
   Result:=Salario+bonus;
 end;
